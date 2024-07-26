@@ -1,0 +1,2143 @@
+.portfolio-template {
+  background-color: #f0f0f6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio-template .div {
+  background-color: var(--background);
+  overflow: hidden;
+  width: 1407px;
+  height: 4805px;
+  position: relative;
+}
+
+.portfolio-template .main-menu {
+  position: absolute;
+  width: 972px;
+  height: 467px;
+  top: 0;
+  left: 335px;
+}
+
+.portfolio-template .overlap-group {
+  position: relative;
+  width: 970px;
+  height: 467px;
+  background-color: var(--white);
+}
+
+.portfolio-template .i-m-le-quy-minh-web {
+  position: absolute;
+  width: 500px;
+  top: 93px;
+  left: 60px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 59.3px;
+}
+
+.portfolio-template .text-wrapper {
+  color: #2b2b2b;
+}
+
+.portfolio-template .span {
+  color: #ffb400;
+}
+
+.portfolio-template .ellipse {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 52px;
+  left: 520px;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #05ff00cc;
+}
+
+.portfolio-template .ellipse-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 422px;
+  left: 88px;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #05ff00cc;
+}
+
+.portfolio-template .ellipse-3 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 380px;
+  left: 558px;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #ffb400cc;
+}
+
+.portfolio-template .ellipse-4 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 30px;
+  left: 40px;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #ffb400cc;
+}
+
+.portfolio-template .rectangle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 72px;
+  left: 898px;
+  border: 2px solid;
+  border-color: #ffb400cc;
+  transform: rotate(26.05deg);
+}
+
+.portfolio-template .rectangle-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 336px;
+  left: 377px;
+  border: 2px solid;
+  border-color: #0047ffcc;
+  transform: rotate(26.05deg);
+}
+
+.portfolio-template .polygon {
+  position: absolute;
+  width: 14px;
+  height: 12px;
+  top: 427px;
+  left: 922px;
+}
+
+.portfolio-template .button-hire-me {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 342px;
+  left: 60px;
+}
+
+.portfolio-template .button-hire-me-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .group-wrapper {
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 32px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .group {
+  position: relative;
+  width: 92px;
+  height: 19px;
+  margin-right: -2px;
+}
+
+.portfolio-template .text-wrapper-2 {
+  position: absolute;
+  height: 19px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--black);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.portfolio-template .frame {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 1px;
+  left: 74px;
+}
+
+.portfolio-template .left-menu {
+  position: absolute;
+  width: 305px;
+  height: 1315px;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+}
+
+.portfolio-template .profile {
+  position: absolute;
+  width: 184px;
+  height: 249px;
+  top: 80px;
+  left: 59px;
+}
+
+.portfolio-template .text-wrapper-3 {
+  position: absolute;
+  height: 22px;
+  top: 151px;
+  left: 49px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-4 {
+  position: absolute;
+  top: 187px;
+  left: 35px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .overlap-group-2 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 0;
+  left: 39px;
+}
+
+.portfolio-template .available {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 86px;
+  left: 100px;
+  background-color: var(--available);
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px #00000026;
+}
+
+.portfolio-template .image {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.portfolio-template .social-icon {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 15px;
+  position: absolute;
+  top: 225px;
+  left: 0;
+}
+
+.portfolio-template .img-wrapper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: var(--yellow);
+  border-radius: 12px;
+}
+
+.portfolio-template .img {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 5px;
+  left: 5px;
+}
+
+.portfolio-template .line {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 354px;
+  left: 40px;
+}
+
+.portfolio-template .about {
+  position: absolute;
+  width: 238px;
+  height: 126px;
+  top: 381px;
+  left: 40px;
+}
+
+.portfolio-template .age {
+  position: absolute;
+  width: 242px;
+  height: 25px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-template .overlap-group-3 {
+  position: absolute;
+  width: 55px;
+  height: 25px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-template .rectangle-3 {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  background-color: var(--yellow);
+}
+
+.portfolio-template .d-o-b {
+  position: absolute;
+  width: 44px;
+  top: 1px;
+  left: 5px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--black);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .text-wrapper-5 {
+  position: absolute;
+  width: 88px;
+  top: 0;
+  left: 150px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--black);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .residence {
+  position: absolute;
+  width: 242px;
+  height: 24px;
+  top: 34px;
+  left: 0;
+}
+
+.portfolio-template .overlap {
+  position: relative;
+  width: 238px;
+  height: 24px;
+}
+
+.portfolio-template .rectangle-4 {
+  position: absolute;
+  width: 53px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-template .text-wrapper-6 {
+  position: absolute;
+  width: 45px;
+  top: 0;
+  left: 5px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--black);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .gmail-com {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 44px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--black);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .freelance {
+  position: absolute;
+  width: 242px;
+  height: 24px;
+  top: 68px;
+  left: 0;
+}
+
+.portfolio-template .div-wrapper {
+  position: absolute;
+  width: 63px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  background-color: var(--yellow);
+}
+
+.portfolio-template .text-wrapper-7 {
+  position: absolute;
+  width: 53px;
+  top: 0;
+  left: 5px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--black);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .text-wrapper-8 {
+  position: absolute;
+  width: 135px;
+  top: 0;
+  left: 103px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--available);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .address {
+  position: absolute;
+  width: 242px;
+  height: 24px;
+  top: 102px;
+  left: 0;
+}
+
+.portfolio-template .overlap-2 {
+  position: absolute;
+  width: 81px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  background-color: var(--yellow);
+}
+
+.portfolio-template .text-wrapper-9 {
+  position: absolute;
+  width: 68px;
+  top: 0;
+  left: 5px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--black);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .HCM-city {
+  position: absolute;
+  width: 74px;
+  top: 0;
+  left: 164px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--black);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .line-2 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 530px;
+  left: 40px;
+}
+
+.portfolio-template .languages {
+  position: absolute;
+  width: 222px;
+  height: 112px;
+  top: 557px;
+  left: 40px;
+}
+
+.portfolio-template .text-wrapper-10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .div-2 {
+  position: absolute;
+  width: 224px;
+  height: 24px;
+  top: 37px;
+  left: 0;
+}
+
+.portfolio-template .text-wrapper-11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .text-wrapper-12 {
+  left: 182px;
+  position: absolute;
+  top: 0;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .overlap-group-wrapper {
+  position: absolute;
+  width: 220px;
+  height: 4px;
+  top: 66px;
+  left: 0;
+}
+
+.portfolio-template .rectangle-wrapper {
+  width: 221px;
+  height: 5px;
+  border-radius: 30px;
+  border: 0.5px solid;
+  border-color: var(--yellow);
+}
+
+.portfolio-template .rectangle-5 {
+  position: relative;
+  width: 218px;
+  height: 2px;
+  top: 1px;
+  left: 1px;
+  background-color: var(--yellow);
+  border-radius: 30px;
+}
+
+.portfolio-template .english {
+  position: absolute;
+  width: 223px;
+  height: 24px;
+  top: 79px;
+  left: 0;
+}
+
+.portfolio-template .text-wrapper-13 {
+  left: 188px;
+  position: absolute;
+  top: 0;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .overlap-wrapper {
+  position: absolute;
+  width: 220px;
+  height: 4px;
+  top: 108px;
+  left: 0;
+}
+
+.portfolio-template .rectangle-6 {
+  position: relative;
+  width: 208px;
+  height: 2px;
+  top: 1px;
+  left: 1px;
+  background-color: var(--yellow);
+  border-radius: 30px;
+}
+
+.portfolio-template .line-3 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 692px;
+  left: 41px;
+}
+
+.portfolio-template .skills {
+  position: absolute;
+  width: 222px;
+  height: 242px;
+  top: 719px;
+  left: 41px;
+}
+
+.portfolio-template .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 189px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .rectangle-7 {
+  position: relative;
+  width: 209px;
+  height: 2px;
+  top: 1px;
+  left: 1px;
+  background-color: var(--yellow);
+  border-radius: 30px;
+}
+
+.portfolio-template .CSS {
+  position: absolute;
+  width: 224px;
+  height: 24px;
+  top: 80px;
+  left: 0;
+}
+
+.portfolio-template .line-4 {
+  position: absolute;
+  width: 220px;
+  height: 4px;
+  top: 109px;
+  left: 0;
+}
+
+.portfolio-template .rectangle-8 {
+  position: relative;
+  width: 207px;
+  height: 2px;
+  top: 1px;
+  left: 1px;
+  background-color: var(--yellow);
+  border-radius: 30px;
+}
+
+.portfolio-template .js {
+  position: absolute;
+  width: 224px;
+  height: 24px;
+  top: 123px;
+  left: 0;
+}
+
+.portfolio-template .line-5 {
+  position: absolute;
+  width: 220px;
+  height: 4px;
+  top: 152px;
+  left: 0;
+}
+
+.portfolio-template .rectangle-9 {
+  position: relative;
+  width: 201px;
+  height: 2px;
+  top: 1px;
+  left: 1px;
+  background-color: var(--yellow);
+  border-radius: 30px;
+}
+
+.portfolio-template .PHP {
+  position: absolute;
+  width: 224px;
+  height: 24px;
+  top: 166px;
+  left: 0;
+}
+
+.portfolio-template .text-wrapper-15 {
+  left: 190px;
+  position: absolute;
+  top: 0;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .line-6 {
+  position: absolute;
+  width: 220px;
+  height: 4px;
+  top: 195px;
+  left: 0;
+}
+
+.portfolio-template .rectangle-10 {
+  position: relative;
+  width: 187px;
+  height: 2px;
+  top: 1px;
+  left: 1px;
+  background-color: var(--yellow);
+  border-radius: 30px;
+}
+
+.portfolio-template .word-press {
+  position: absolute;
+  width: 224px;
+  height: 24px;
+  top: 209px;
+  left: 0;
+}
+
+.portfolio-template .line-7 {
+  position: absolute;
+  width: 220px;
+  height: 4px;
+  top: 238px;
+  left: 0;
+}
+
+.portfolio-template .line-8 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 984px;
+  left: 42px;
+}
+
+.portfolio-template .extra-skills {
+  position: absolute;
+  width: 188px;
+  height: 148px;
+  top: 1011px;
+  left: 41px;
+}
+
+.portfolio-template .bootstrap {
+  position: absolute;
+  width: 188px;
+  height: 24px;
+  top: 37px;
+  left: 0;
+}
+
+.portfolio-template .text-wrapper-16 {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .icons {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 4px;
+  left: 0;
+}
+
+.portfolio-template .icons-2 {
+  height: 15px;
+}
+
+.portfolio-template .overlap-group-4 {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.portfolio-template .icons-wrapper {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-template .rectangle-11 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: var(--yellow);
+}
+
+.portfolio-template .rectangle-12 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: 5px;
+  border: 1px solid;
+  border-color: var(--yellow);
+}
+
+.portfolio-template .stylus-sass-less {
+  position: absolute;
+  width: 159px;
+  height: 24px;
+  top: 66px;
+  left: 0;
+}
+
+.portfolio-template .gulp-webpack-grunt {
+  position: absolute;
+  width: 188px;
+  height: 24px;
+  top: 95px;
+  left: 0;
+}
+
+.portfolio-template .GIT-knowledge {
+  position: absolute;
+  width: 141px;
+  height: 24px;
+  top: 124px;
+  left: 0;
+}
+
+.portfolio-template .line-9 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 1182px;
+  left: 41px;
+}
+
+.portfolio-template .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  top: 1209px;
+  left: 41px;
+}
+
+.portfolio-template .button-cv {
+  all: unset;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.portfolio-template .button-CV {
+  width: 220px;
+  height: 40px;
+  background-color: var(--yellow);
+}
+
+.portfolio-template .group-2 {
+  position: relative;
+  width: 143px;
+  height: 19px;
+  top: 10px;
+  left: 40px;
+}
+
+.portfolio-template .download-cv {
+  position: absolute;
+  width: 108px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio-template .frame-2 {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  top: 2px;
+  left: 127px;
+}
+
+.portfolio-template .right-menu {
+  position: absolute;
+  width: 108px;
+  height: 1315px;
+  top: 0;
+  left: 1332px;
+  background-color: var(--white-font);
+  box-shadow: 4px 0px 10px #2f7af91a;
+}
+
+.portfolio-template .menu {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  top: 254px;
+  left: 21px;
+}
+
+.portfolio-template .home {
+  position: relative;
+  width: 65px;
+  height: 78px;
+}
+
+.portfolio-template .pop-up {
+  position: absolute;
+  width: 67px;
+  height: 33px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-template .overlap-group-5 {
+  position: relative;
+  width: 54px;
+  height: 33px;
+  background-image: url(./img/union.svg);
+  background-size: 100% 100%;
+}
+
+.portfolio-template .text-wrapper-17 {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--white);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio-template .icons-home-wrapper {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 38px;
+  left: 13px;
+  background-color: var(--yellow);
+  border-radius: 20px;
+}
+
+.portfolio-template .img-2 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 11px;
+  left: 11px;
+}
+
+.portfolio-template .img-wrapper-2 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: var(--background);
+  border-radius: 20px;
+}
+
+.portfolio-template .my-services {
+  position: absolute;
+  width: 972px;
+  height: 617px;
+  top: 543px;
+  left: 335px;
+}
+
+.portfolio-template .my-skills {
+  position: absolute;
+  top: 0;
+  left: 349px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 79.1px;
+  white-space: nowrap;
+}
+
+.portfolio-template .web-development {
+  position: absolute;
+  width: 314px;
+  height: 225px;
+  top: 147px;
+  left: 0;
+}
+
+.portfolio-template .overlap-group-6 {
+  position: relative;
+  width: 310px;
+  height: 225px;
+  background-color: var(--white);
+}
+
+.portfolio-template .img-3 {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 28px;
+  left: 121px;
+}
+
+.portfolio-template .web-development-2 {
+  position: absolute;
+  top: 122px;
+  left: 76px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .blog-e-commerce {
+  position: absolute;
+  top: 159px;
+  left: 88px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .UI-UX-design {
+  position: absolute;
+  width: 314px;
+  height: 225px;
+  top: 147px;
+  left: 330px;
+}
+
+.portfolio-template .ui-ux-design {
+  position: absolute;
+  top: 122px;
+  left: 97px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .mobile-app-website {
+  position: absolute;
+  top: 159px;
+  left: 55px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .sound-design {
+  position: absolute;
+  width: 314px;
+  height: 225px;
+  top: 147px;
+  left: 660px;
+}
+
+.portfolio-template .icons-microphone {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  top: 25px;
+  left: 118px;
+}
+
+.portfolio-template .sound-design-2 {
+  position: absolute;
+  top: 122px;
+  left: 95px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-18 {
+  position: absolute;
+  top: 159px;
+  left: 67px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .game-design {
+  position: absolute;
+  width: 314px;
+  height: 225px;
+  top: 392px;
+  left: 0;
+}
+
+.portfolio-template .icons-game {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  top: 33px;
+  left: 118px;
+}
+
+.portfolio-template .game-design-2 {
+  position: absolute;
+  top: 128px;
+  left: 97px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .character-design {
+  position: absolute;
+  top: 168px;
+  left: 32px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .photography {
+  position: absolute;
+  width: 314px;
+  height: 225px;
+  top: 392px;
+  left: 330px;
+}
+
+.portfolio-template .icons-photographer {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 25px;
+  left: 116px;
+}
+
+.portfolio-template .photography-2 {
+  position: absolute;
+  top: 128px;
+  left: 99px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .portrait-product {
+  position: absolute;
+  top: 168px;
+  left: 48px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .recommendations {
+  position: absolute;
+  width: 972px;
+  height: 512px;
+  top: 1260px;
+  left: 331px;
+}
+
+.portfolio-template .text-wrapper-19 {
+  position: absolute;
+  top: 0;
+  left: 313px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 79.1px;
+  white-space: nowrap;
+}
+
+.portfolio-template .review {
+  width: 316px;
+  left: 0;
+  position: absolute;
+  height: 218px;
+  top: 129px;
+}
+
+.portfolio-template .overlap-group-7 {
+  position: relative;
+  width: 310px;
+  height: 218px;
+  background-color: var(--white);
+}
+
+.portfolio-template .rating {
+  position: absolute;
+  width: 130px;
+  height: 17px;
+  top: 25px;
+  left: 25px;
+}
+
+.portfolio-template .text-wrapper-20 {
+  position: absolute;
+  width: 120px;
+  top: 59px;
+  left: 25px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .profile-2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 121px;
+  left: 25px;
+  object-fit: cover;
+}
+
+.portfolio-template .text-wrapper-21 {
+  position: absolute;
+  width: 45px;
+  top: 132px;
+  left: 118px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .techlead {
+  position: absolute;
+  width: 64px;
+  height: 11px;
+  top: 177px;
+  left: 114px;
+}
+
+.portfolio-template .review-2 {
+  width: 316px;
+  left: 337px;
+  position: absolute;
+  height: 218px;
+  top: 129px;
+}
+
+.portfolio-template .rating-2 {
+  left: 17px;
+  position: absolute;
+  width: 130px;
+  height: 12px;
+  top: 17px;
+}
+
+.portfolio-template .amazing-work {
+  position: absolute;
+  width: 130px;
+  top: 40px;
+  left: 17px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .profile-3 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 121px;
+  left: 11px;
+  object-fit: cover;
+}
+
+.portfolio-template .text-wrapper-22 {
+  width: 48px;
+  left: 114px;
+  position: absolute;
+  top: 136px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-23 {
+  position: absolute;
+  width: 131px;
+  top: 171px;
+  left: 110px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .review-3 {
+  width: 314px;
+  left: 662px;
+  position: absolute;
+  height: 218px;
+  top: 129px;
+}
+
+.portfolio-template .overlap-3 {
+  position: relative;
+  width: 308px;
+  height: 218px;
+  background-color: var(--white);
+}
+
+.portfolio-template .rating-3 {
+  left: 25px;
+  position: absolute;
+  width: 130px;
+  height: 12px;
+  top: 17px;
+}
+
+.portfolio-template .text-wrapper-24 {
+  position: absolute;
+  width: 100px;
+  top: 40px;
+  left: 25px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-25 {
+  width: 49px;
+  left: 125px;
+  position: absolute;
+  top: 136px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-26 {
+  position: absolute;
+  width: 63px;
+  top: 171px;
+  left: 125px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .group-3 {
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  top: 502px;
+  left: 452px;
+}
+
+.portfolio-template .ellipse-5 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+.portfolio-template .ellipse-6 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 20px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+.portfolio-template .ellipse-7 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 40px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+.portfolio-template .education {
+  position: absolute;
+  width: 972px;
+  height: 783px;
+  top: 1874px;
+  left: 315px;
+}
+
+.portfolio-template .text-wrapper-27 {
+  position: absolute;
+  top: 0;
+  left: 380px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 79.1px;
+  white-space: nowrap;
+}
+
+.portfolio-template .education-detils {
+  position: absolute;
+  width: 970px;
+  height: 632px;
+  top: 151px;
+  left: 0;
+  background-color: var(--white);
+}
+
+.portfolio-template .line-10 {
+  position: absolute;
+  width: 901px;
+  height: 2px;
+  top: 414px;
+  left: 56px;
+}
+
+.portfolio-template .web-developer {
+  position: absolute;
+  width: 212px;
+  height: 70px;
+  top: 454px;
+  left: 397px;
+}
+
+.portfolio-template .text-wrapper-28 {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  font-family: var(--p-15px-paragraph-font-family);
+  font-weight: var(--p-15px-paragraph-font-weight);
+  color: var(--black);
+  font-size: var(--p-15px-paragraph-font-size);
+  letter-spacing: var(--p-15px-paragraph-letter-spacing);
+  line-height: var(--p-15px-paragraph-line-height);
+  white-space: nowrap;
+  font-style: var(--p-15px-paragraph-font-style);
+}
+
+.portfolio-template .jan-dec {
+  position: absolute;
+  width: 119px;
+  height: 14px;
+  top: 49px;
+  left: 78px;
+}
+
+.portfolio-template .overlap-group-8 {
+  position: relative;
+  width: 117px;
+  height: 14px;
+  background-color: var(--yellow);
+  border-radius: 1px;
+}
+
+.portfolio-template .p {
+  position: absolute;
+  width: 106px;
+  top: 3px;
+  left: 7px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 10.1px;
+  white-space: nowrap;
+}
+
+.portfolio-template .university-of {
+  position: absolute;
+  width: 356px;
+  height: 76px;
+  top: 100px;
+  left: 381px;
+}
+
+.portfolio-template .overlap-4 {
+  position: relative;
+  width: 352px;
+  height: 76px;
+}
+
+.portfolio-template .text-wrapper-29 {
+  position: absolute;
+  width: 352px;
+  top: 0;
+  left: 0;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-30 {
+  position: absolute;
+  width: 57px;
+  top: 32px;
+  left: 16px;
+  font-family: var(--p-15px-paragraph-font-family);
+  font-weight: var(--p-15px-paragraph-font-weight);
+  color: var(--black);
+  font-size: var(--p-15px-paragraph-font-size);
+  letter-spacing: var(--p-15px-paragraph-letter-spacing);
+  line-height: var(--p-15px-paragraph-line-height);
+  font-style: var(--p-15px-paragraph-font-style);
+}
+
+.portfolio-template .jan-dec-2 {
+  height: 19px;
+  top: 37px;
+  left: 94px;
+  position: absolute;
+  width: 122px;
+}
+
+.portfolio-template .overlap-group-9 {
+  position: relative;
+  width: 120px;
+  height: 19px;
+  background-color: var(--yellow);
+  border-radius: 1px;
+}
+
+.portfolio-template .text-wrapper-31 {
+  position: absolute;
+  width: 109px;
+  top: 4px;
+  left: 8px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 10.1px;
+  white-space: nowrap;
+}
+
+.portfolio-template .line-11 {
+  position: absolute;
+  width: 901px;
+  height: 2px;
+  top: 206px;
+  left: 56px;
+}
+
+.portfolio-template .programming-course {
+  position: absolute;
+  width: 193px;
+  height: 70px;
+  top: 246px;
+  left: 406px;
+}
+
+.portfolio-template .jan-dec-3 {
+  height: 14px;
+  top: 49px;
+  left: 69px;
+  position: absolute;
+  width: 122px;
+}
+
+.portfolio-template .overlap-group-10 {
+  position: relative;
+  width: 120px;
+  height: 14px;
+  background-color: var(--yellow);
+  border-radius: 1px;
+}
+
+.portfolio-template .text-wrapper-32 {
+  position: absolute;
+  width: 109px;
+  top: 3px;
+  left: 8px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 10.1px;
+  white-space: nowrap;
+}
+
+.portfolio-template .work-history {
+  position: absolute;
+  width: 972px;
+  height: 787px;
+  top: 2755px;
+  left: 331px;
+}
+
+.portfolio-template .text-wrapper-33 {
+  position: absolute;
+  top: 0;
+  left: 280px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 79.1px;
+  white-space: nowrap;
+}
+
+.portfolio-template .work-detils {
+  position: absolute;
+  width: 970px;
+  height: 632px;
+  top: 155px;
+  left: 0;
+  background-color: var(--white);
+}
+
+.portfolio-template .lead-web-designer {
+  position: absolute;
+  width: 908px;
+  height: 118px;
+  top: 47px;
+  left: 37px;
+}
+
+.portfolio-template .during-my-internship {
+  position: absolute;
+  width: 536px;
+  top: 18px;
+  left: 368px;
+  font-family: var(--p-15px-paragraph-font-family);
+  font-weight: var(--p-15px-paragraph-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--p-15px-paragraph-font-size);
+  letter-spacing: var(--p-15px-paragraph-letter-spacing);
+  line-height: var(--p-15px-paragraph-line-height);
+  font-style: var(--p-15px-paragraph-font-style);
+}
+
+.portfolio-template .line-12 {
+  position: absolute;
+  width: 901px;
+  height: 2px;
+  top: 202px;
+  left: 40px;
+}
+
+.portfolio-template .junior-web-designer {
+  position: absolute;
+  width: 908px;
+  height: 143px;
+  top: 234px;
+  left: 37px;
+}
+
+.portfolio-template .text-wrapper-34 {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--black);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .successfully {
+  position: absolute;
+  width: 536px;
+  top: 0;
+  left: 368px;
+  font-family: var(--p-15px-paragraph-font-family);
+  font-weight: var(--p-15px-paragraph-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--p-15px-paragraph-font-size);
+  letter-spacing: var(--p-15px-paragraph-letter-spacing);
+  line-height: var(--p-15px-paragraph-line-height);
+  font-style: var(--p-15px-paragraph-font-style);
+}
+
+.portfolio-template .line-13 {
+  position: absolute;
+  width: 901px;
+  height: 2px;
+  top: 410px;
+  left: 40px;
+}
+
+.portfolio-template .senior-web-designer {
+  position: absolute;
+  width: 908px;
+  height: 154px;
+  top: 444px;
+  left: 37px;
+}
+
+.portfolio-template .as-an-upcoming {
+  position: absolute;
+  width: 536px;
+  top: 11px;
+  left: 368px;
+  font-family: var(--p-15px-paragraph-font-family);
+  font-weight: var(--p-15px-paragraph-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--p-15px-paragraph-font-size);
+  letter-spacing: var(--p-15px-paragraph-letter-spacing);
+  line-height: var(--p-15px-paragraph-line-height);
+  font-style: var(--p-15px-paragraph-font-style);
+}
+
+.portfolio-template .contact-information {
+  position: absolute;
+  width: 760px;
+  height: 310px;
+  top: 3989px;
+  left: 437px;
+}
+
+.portfolio-template .contact-information-2 {
+  position: absolute;
+  top: 0;
+  left: 221px;
+  font-family: var(--h2-32px-font-family);
+  font-weight: var(--h2-32px-font-weight);
+  color: var(--black);
+  font-size: var(--h2-32px-font-size);
+  letter-spacing: var(--h2-32px-letter-spacing);
+  line-height: var(--h2-32px-line-height);
+  white-space: nowrap;
+  font-style: var(--h2-32px-font-style);
+}
+
+.portfolio-template .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 18px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.portfolio-template .location {
+  position: relative;
+  width: 382px;
+  height: 210px;
+}
+
+.portfolio-template .overlap-group-11 {
+  position: relative;
+  width: 370px;
+  height: 210px;
+  background-color: var(--white);
+}
+
+.portfolio-template .text-wrapper-35 {
+  position: absolute;
+  top: 96px;
+  left: 25px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-36 {
+  position: absolute;
+  top: 95px;
+  left: 280px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .text-wrapper-37 {
+  position: absolute;
+  top: 134px;
+  left: 25px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-38 {
+  position: absolute;
+  top: 133px;
+  left: 226px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .text-wrapper-39 {
+  position: absolute;
+  top: 172px;
+  left: 25px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .text-wrapper-40 {
+  position: absolute;
+  top: 171px;
+  left: 281px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .overlap-group-12 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 165px;
+  background-color: var(--yellow);
+  border-radius: 20px;
+}
+
+.portfolio-template .gmail {
+  position: relative;
+  width: 382px;
+  height: 210px;
+  margin-right: -12px;
+}
+
+.portfolio-template .text-wrapper-41 {
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .minhbenz-gmail-com {
+  top: 99px;
+  position: absolute;
+  left: 166px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .text-wrapper-42 {
+  position: absolute;
+  top: 138px;
+  left: 25px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .gmail-com-2 {
+  top: 137px;
+  position: absolute;
+  left: 166px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .text-wrapper-43 {
+  position: absolute;
+  top: 176px;
+  left: 25px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-18px-font-style);
+}
+
+.portfolio-template .gmail-com-3 {
+  top: 175px;
+  position: absolute;
+  left: 166px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--paragraph-font);
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: right;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .fotter {
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  top: 4745px;
+  left: 0;
+  background-color: var(--white);
+}
+
+.portfolio-template .copyright {
+  position: relative;
+  width: 274px;
+  height: 24px;
+  top: 18px;
+}
+
+.portfolio-template .text-wrapper-44 {
+  position: absolute;
+  width: 213px;
+  top: 0;
+  left: 59px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: var(--black);
+  font-size: var(--paragraph-progress-15-font-size);
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.portfolio-template .icons-copyright {
+  position: absolute;
+  width: 36px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
